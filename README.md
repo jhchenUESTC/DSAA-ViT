@@ -60,7 +60,7 @@ pip install -r requirements.txt
 Run preprocessing for one sample:
 
 ```bash
-python scripts/preprocess_eye.py --input "sample_data/eyeMatrix_17.csv" --out-dir "outputs"
+python scripts/preprocess_eye.py --input "sample_data/eyeMatrix_4084.csv" --out-dir "outputs"
 ```
 
 The script generates:
