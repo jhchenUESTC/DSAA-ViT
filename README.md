@@ -39,10 +39,10 @@ If the input file is named `eyeMatrix.csv`, the sample ID is set to 0.
 The nine labels are ordered as:
 
 ```text
-A_l, A_m, A_u, W_l, W_m, W_u, H_l, H_m, H_u
+*A*<sub>l</sub>, *A*<sub>m</sub>, *A*<sub>u</sub>, *W*<sub>l</sub>, *W*<sub>m</sub>, *W*<sub>u</sub>, *H*<sub>l</sub>, *H*<sub>m</sub>, *H*<sub>u</sub>
 ```
 
-where `A`, `W`, and `H` denote eye amplitude, eye width, and eye height, respectively. The subscripts `l`, `m`, and `u` denote the lower, middle, and upper eyes. The units are provided in the label files.
+where `A`, `W`, and `H` denote eye amplitude, eye width, and eye height, respectively. The subscripts `l`, `m`, and `u` denote the lower, middle, and upper eyes. The first column of each label file contains the parameter values, and the second column provides the corresponding units.
 
 ## Preprocessing
 
@@ -62,6 +62,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
+
 Run preprocessing for one sample:
 
 ```bash
@@ -74,7 +75,3 @@ The script generates:
 - a rendered RGB eye-diagram figure with colorbar;
 - a patch-aligned density prior;
 - a density-prior visualization figure.
-
-## Dataset Availability
-
-The complete dataset is associated with an ongoing research project and is not publicly released at the current stage. This repository provides representative samples and preprocessing scripts to clarify the data format and preprocessing pipeline.
