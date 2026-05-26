@@ -34,8 +34,6 @@ eyeMatrix_17.csv  -> density matrix of sample 17
 label_17.csv      -> label file of sample 17
 ```
 
-If the input file is named `eyeMatrix.csv`, the sample ID is set to 0.
-
 The nine labels are ordered as: $A_l,\ A_m,\ A_u,\ W_l,\ W_m,\ W_u,\ H_l,\ H_m,\ H_u$.
 
 where `A`, `W`, and `H` denote eye amplitude, eye width, and eye height, respectively. The subscripts `l`, `m`, and `u` denote the lower, middle, and upper eyes. The first column of each label file contains the parameter values, and the second column provides the corresponding units.
