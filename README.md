@@ -36,11 +36,7 @@ label_17.csv      -> label file of sample 17
 
 If the input file is named `eyeMatrix.csv`, the sample ID is set to 0.
 
-The nine labels are ordered as:
-
-```text
-*A*<sub>l</sub>, *A*<sub>m</sub>, *A*<sub>u</sub>, *W*<sub>l</sub>, *W*<sub>m</sub>, *W*<sub>u</sub>, *H*<sub>l</sub>, *H*<sub>m</sub>, *H*<sub>u</sub>
-```
+The nine labels are ordered as: $A_l,\ A_m,\ A_u,\ W_l,\ W_m,\ W_u,\ H_l,\ H_m,\ H_u$.
 
 where `A`, `W`, and `H` denote eye amplitude, eye width, and eye height, respectively. The subscripts `l`, `m`, and `u` denote the lower, middle, and upper eyes. The first column of each label file contains the parameter values, and the second column provides the corresponding units.
 
